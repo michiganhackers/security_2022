@@ -13,4 +13,4 @@
 
 ## Solution
 
-\<Use control + F in the text file to find the flag. Then, decrypt.\>
+\<Use control + F in the text file to find the flag with {}. Then, decrypt.\>
