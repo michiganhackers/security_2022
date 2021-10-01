@@ -1,4 +1,4 @@
-# \<challenge name\>
+# Lam Dao Crypto Challenge
 
 ## Contributors
 
@@ -6,12 +6,10 @@ Lam Dao
 
 ## Flag
 
-\<MHCTF{example_flag}\>
+MHCTF{steg_and_crypto}
 
 ## Idea
 
-\<Idea beind the challenge with context and an explanation of how the flag was made\>
-
 ## Solution
 
-\<Steps for finding the flag\>
+The vigenere cipher key will be hidden in the image using steganography. After finding the cipher key, decode the txt file to find the flag.
