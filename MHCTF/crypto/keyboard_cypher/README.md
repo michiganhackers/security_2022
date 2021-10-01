@@ -5,7 +5,7 @@ Patrick Halim, Caleb Qiu
 
 ## Flag
 
-MHCTF{YOU_DID_IT_SHEEESH!}
+ZJVYG{UPI_GPIMF_OY_DJRRRDJ} -> MHCTF{YOU_DID_IT_SHEEESH!} 
 
 ## Idea
 
