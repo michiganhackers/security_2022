@@ -1,20 +1,30 @@
-f = open("cool_cat_binary.txt", "r")
-f_out = open("cool_cat_binary_out.txt", "a")
+f = open("cat_with_flag.txt", "r")
 
 i = 0
+str = ""
+letters = 0
 
 for char in f.read():
-    f_out.write(char)
+    if char == "\n":
+        i -= 1
 
-    if char == " ":
-        i += 1
+    if i%9 == 7:
+        str += char
+        letters += 1
+    if i%72 == 1:
+        str += " "
 
-    if i%8 == 0:
-        f_out.write("\n")
-        i+= 1
+    i += 1
+
+    if letters > 400:
+        break
+
+
+
+
+print(str)
 
 
 f.close()
-f_out.close()
 
 print("hi")
