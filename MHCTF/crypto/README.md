@@ -1,17 +1,20 @@
-# Halloween Costume
+/// README
+# Music
 ## Contributors
 Kipras Januska
-Abbie Tooman
+Adam Gunn
 Jiye Choi
 
 ## Flag
+MHCTF{f1r3_B3At5}
 
-MHCTF{astronaut}
+## Hint
+https://scloudtomp3downloader.com/?lang=en 
 
 ## Idea
-
-To use multiple encryption methods to encode one string.
+To use OTP to encrypt a link, and to store the flag in an audio file.
 
 ## Solution
+Use OTP to decrypt the image. 
+Open the SoundCloud link. Download the song from SoundCloud and open the file in Audacity, and then view the spectrogram.
 
-Decode the string using a Vigenere cipher with the keyphrase "boo". Then decode the resulting string using a shift cipher with a key of 6.
