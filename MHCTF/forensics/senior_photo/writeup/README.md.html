@@ -1,0 +1,20 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>README.md</title><style></style></head><body id="preview">
+<h1 class="code-line" data-line-start=0 data-line-end=1><a id="Senior_Photo_MHCTF_0"></a>Senior Photo MHCTF</h1>
+<h5 class="code-line" data-line-start=1 data-line-end=2><a id="by_Daniel_Peacock_1"></a>by: Daniel Peacock</h5>
+<h2 class="code-line" data-line-start=3 data-line-end=4><a id="Categories_3"></a>Categories:</h2>
+<p class="has-line-data" data-line-start="4" data-line-end="5">Forensics / Cryptography</p>
+<h2 class="code-line" data-line-start=5 data-line-end=6><a id="Description_5"></a>Description:</h2>
+<p class="has-line-data" data-line-start="6" data-line-end="7">Can you locate the flag in this senior photo?</p>
+<h2 class="code-line" data-line-start=8 data-line-end=9><a id="Writeup_8"></a>Write-up:</h2>
+<p class="has-line-data" data-line-start="9" data-line-end="11">Download just_a_senior_photo.png<br>
+<img src="./just_a_senior_photo.png" alt="just_a_senior_photo.png" title="just_a_senior_photo.png"></p>
+<p class="has-line-data" data-line-start="12" data-line-end="14">Trying binwalk recursive carving (‘binwalk -e -M just_a_senior_photo.png’) in the command prompt reveals a hidden image, called ‘hackerbro.png’ is contained within the senior photo.<br>
+<img src="./binwalk_image.jpg" alt="binwalk_image.jpg" title="binwalk_image.jpg"></p>
+<p class="has-line-data" data-line-start="16" data-line-end="18">You can extract this image by clicking ‘Add to archive…’ in the File Explorer, then extracting the .png given.<br>
+<img src="./add_to_archive.png" alt="add_to_archive.png" title="add_to_archive.png"></p>
+<p class="has-line-data" data-line-start="20" data-line-end="23">The result is a folder containing both just_a_senior_photo.png and hackerbro.png.<br>
+Then, you can use a steganography decoding tool, such as Stegsolve, to reveal the encrypted flag, which appears as ‘CXSJV{0d_l4s4710d_w0d3_fx1ix1dw}’.<br>
+Great! This looks like the flag, but how do we decrypt it? You can use a caesar shift decoder to brute-force all possible shifts. Finally, the flag is revealed once you shift the encrypted text ROT 16.</p>
+<h2 class="code-line" data-line-start=23 data-line-end=24><a id="Flag_23"></a>Flag:</h2>
+<p class="has-line-data" data-line-start="24" data-line-end="25">MHCTF{0n_v4c4710n_g0n3_ph1sh1ng}</p>
+</body></html>
