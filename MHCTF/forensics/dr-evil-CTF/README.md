@@ -1,4 +1,4 @@
-# Senior Photo MHCTF
+# Dr-Evil MHCTF
 ##### by: Daniel Peacock
 
 ## Categories: 
