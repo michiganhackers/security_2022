@@ -1,0 +1,1 @@
+MHCTF{i_am_groot}
