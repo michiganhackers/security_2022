@@ -1,0 +1,1 @@
+MHCTF{sharks_with_frickin_laser_beams}
