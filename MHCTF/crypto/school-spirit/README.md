@@ -9,7 +9,7 @@ DYTKW{Fgve lg dp vrxvi vpvj, 'trljv Z'd Di. Sizxykjzuv} -> MHCTF{Open up my eage
 
 ## Idea
 
-All of the letters will be shifted by 17 based off of 1817 when the University of Michigan was founded. Using a basic shift-cipher to last line of the chorus in Mr. Brightside. There will be a hint: "We may be an old university, but our school spirit will never die!"
+All of the letters will be shifted by 17 based off of 1817 when the University of Michigan was founded. Using a basic shift-cipher to the last line of the chorus in Mr. Brightside. There will be a hint: "We may be an old university, but our school spirit will never die!"
 
 ## Solution
 
